@@ -1,0 +1,27 @@
+{
+  "name": "sp-fe-func",
+  "version": "1.0.2",
+  "description": "Common Function for Dev",
+  "main": "index.js",
+  "homepage": "https://github.com/r3qu3stt1me0ut/sp-fe-func",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r3qu3stt1me0ut/sp-fe-func"
+  },
+  "scripts": {
+    "build": "webpack --mode production --config webpack.config.js"
+  },
+  "keywords": [
+    "sp-fe-func",
+    "frontend",
+    "javascript"
+  ],
+  "author": "sp-fe",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
