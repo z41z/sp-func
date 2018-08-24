@@ -1,3 +1,12 @@
+/**
+ * 
+ * @param {String} url 
+ * @param {Object} data 
+ * @param {Function} success 
+ * @param {Function} fail 
+ * @param {Object} headers 
+ */
+
 const axios = require('axios');
 
 const serviceGet = (url = '/', data = {}, success = function () {}, fail = function () {}, headers = {}) => {

@@ -6,6 +6,9 @@ module.exports = {
     filename: 'index.min.js',
     library: "__FUNC",
   },
+  resolve: {
+    extensions: ['.js']
+  },
   module: {},
-  externals:['axios']
+  externals: ['axios']
 };
