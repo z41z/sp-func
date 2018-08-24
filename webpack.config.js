@@ -6,5 +6,6 @@ module.exports = {
     filename: 'index.min.js',
     library: "__FUNC",
   },
-  module: {}
+  module: {},
+  externals:['axios']
 };
