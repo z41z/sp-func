@@ -15,6 +15,7 @@ npm install --save sp-fe-func
 ### CDN
 
 ```html
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://unpkg.com/sp-fe-func/index.min.js"></script>
 <script>
   __FUNC.serviceAPI(options = {
