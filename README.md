@@ -1,5 +1,5 @@
 # sp-fe-func
-Common Function for Dev.
+Common Functions for Url, Validate, Ajax etc
 
 ***
 
