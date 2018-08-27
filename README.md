@@ -1,4 +1,5 @@
 # sp-fe-func
+
 Common Functions for Url, Validate, Ajax etc
 
 ***
@@ -125,6 +126,18 @@ Chinese PhoneNumber Validate (length = 11)
   //=> true
 
   __FUNC.Validate.isPhoneNumber('12132535')
+  //=> false
+```
+
+- **`isEmpty (str)`**
+  - `str`: `String`
+
+```js
+
+  __FUNC.Validate.isEmpty('')
+  //=> true
+
+  __FUNC.Validate.isEmpty('1')
   //=> false
 ```
 
