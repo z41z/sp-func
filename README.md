@@ -155,6 +155,33 @@ Chinese PhoneNumber Validate (length = 11)
   //=> alice
 ```
 
+### Storage
+
+- **`setStorage (name, value, isSession)`**
+  - `name`: `String`
+  - `value`: `String`
+  - `isSession`: `Boolean`
+
+```js
+  __FUNC.Storage.setStorage('age','18')
+  //=> sessionStorage.age = 18
+
+  __FUNC.Storage.setStorage('age','19', false)
+  //=> localStorage.age = 19
+```
+
+- **`getStorage (name, isSession)`**
+  - `name`: `String`
+  - `isSession`: `Boolean`
+
+```js
+  __FUNC.Storage.getStorage('age')
+  //=> sessionStorage.age = 18
+
+  __FUNC.Storage.getStorage('age', false)
+  //=> localStorage.age = 19
+```
+
 ## License
 
 MIT

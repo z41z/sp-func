@@ -1,12 +1,12 @@
 {
   "name": "sp-fe-func",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Common Functions for Url, Validate, Ajax etc",
   "main": "index.js",
-  "homepage": "https://github.com/r3qu3stt1me0ut/sp-fe-func",
+  "homepage": "https://github.com/isecfe/sp-fe-func",
   "repository": {
     "type": "git",
-    "url": "https://github.com/r3qu3stt1me0ut/sp-fe-func"
+    "url": "https://github.com/isecfe/sp-fe-func"
   },
   "scripts": {
     "build": "webpack --mode production --config webpack.config.js"
