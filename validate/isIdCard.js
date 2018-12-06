@@ -48,4 +48,4 @@ const idCard = (id = '') => {
     return false;
   }
 };
-module.exports = idCard;
+module.exports.default = module.exports = idCard;

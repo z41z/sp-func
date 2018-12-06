@@ -7,4 +7,4 @@
 const isEqual = (str, compare, isDeep = false) => {
   return isDeep ? str === compare : str == compare;
 }
-module.exports = isEqual;
+module.exports.default = module.exports = isEqual;

@@ -8,4 +8,4 @@ const isEmpty = (str = '') => {
   }
   return false;
 }
-module.exports = isEmpty;
+module.exports.default = module.exports = isEmpty;

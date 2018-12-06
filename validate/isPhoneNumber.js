@@ -20,4 +20,4 @@ const isPhoneNumber = (num) => {
     return false;
   }
 }
-module.exports = isPhoneNumber;
+module.exports.default = module.exports = isPhoneNumber;

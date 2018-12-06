@@ -19,4 +19,4 @@ const getParams = (url = '', keyName = '') => {
   return result;
 }
 
-module.exports = getParams;
+module.exports.default = module.exports = getParams;

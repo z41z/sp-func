@@ -1,1 +1,3 @@
-module.exports.getParams = require('./getParams');
+const getParams = require('./getParams');
+
+module.exports.default = module.exports = getParams;

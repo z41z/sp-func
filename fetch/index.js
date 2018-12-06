@@ -58,4 +58,4 @@ function loadData(options = {
       });
   }
 }
-module.exports = loadData;
+module.exports.default = module.exports = loadData;

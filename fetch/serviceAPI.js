@@ -54,7 +54,7 @@ serviceAPI.interceptors.response.use(function (response) {
   return Promise.reject(error);
 });
 
-module.exports = (options = {
+module.exports.default = module.exports = (options = {
   url: '/',
   method: 'get',
   data: {},

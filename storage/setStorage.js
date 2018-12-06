@@ -13,4 +13,4 @@ const setStorage = (name, value, isSession = true) => {
   }
 };
 
-module.exports = setStorage;
+module.exports.default = module.exports = setStorage;

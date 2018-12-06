@@ -1,6 +1,15 @@
-module.exports.isNumber = require('./isNumber');
-module.exports.isIdCard = require('./isIdCard');
-module.exports.isPhoneNumber = require('./isPhoneNumber');
-module.exports.isEqual = require('./isEqual');
-module.exports.isEmail = require('./isEmail');
-module.exports.isEmpty = require('./isEmpty');
+const isNumber = require('./isNumber');
+const isIdCard = require('./isIdCard');
+const isPhoneNumber = require('./isPhoneNumber');
+const isEqual = require('./isEqual');
+const isEmail = require('./isEmail');
+const isEmpty = require('./isEmpty');
+
+module.exports.default = module.exports = {
+  isNumber,
+  isIdCard,
+  isPhoneNumber,
+  isEqual,
+  isEmail,
+  isEmpty
+}

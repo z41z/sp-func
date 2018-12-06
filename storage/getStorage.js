@@ -12,4 +12,4 @@ const getStorage = (name, isSession = true) => {
   }
 };
 
-module.exports = getStorage;
+module.exports.default = module.exports = getStorage;

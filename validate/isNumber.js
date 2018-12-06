@@ -7,4 +7,4 @@ const isNumber = (str = '', length = ("" + str).length) => {
   let regx = RegExp(`\\d{${length}}`, 'ig');
   return regx.test(str);
 }
-module.exports = isNumber;
+module.exports.default = module.exports = isNumber;

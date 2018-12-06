@@ -11,4 +11,4 @@ const isEmail = (email = '') => {
   }
 }
 
-module.exports = isEmail;
+module.exports.default = module.exports = isEmail;

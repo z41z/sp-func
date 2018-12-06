@@ -1,5 +1,14 @@
 // module.exports.loadData = require('./fetch/index');
-module.exports.serviceAPI = require('./fetch/serviceAPI');
-module.exports.Validate = require('./validate/index');
-module.exports.Url = require('./url/index');
-module.exports.Storage = require('./storage/index');
+const serviceAPI = require('./fetch/serviceAPI');
+const Validate = require('./validate/index');
+const Url = require('./url/index');
+const Storage = require('./storage/index');
+const Rotate = require('./rotate/index');
+
+module.exports.default = module.exports = {
+  serviceAPI,
+  Validate,
+  Url,
+  Storage,
+  Rotate
+}
