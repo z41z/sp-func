@@ -4,19 +4,15 @@
  * @param {String} keyName 
  */
 
-const getParams = (url = '', keyName = '') => {
+const getParams = (url = window.location.href, keyName = '') => {
   let result = {};
-  let params = url.substring(url.indexOf('?') + 1);
-  params.split('&').forEach(item => {
-    let indexFlag = item.indexOf('=');
-    let name = item.substring(0, indexFlag);
-    let value = item.substring(indexFlag + 1);
-    result[name] = value;
+  url.replace(/([^(?|#)=&]+)(=([^&]*))?/g, ($0, $1, $2, $3) => {
+    result[$1] = $3
   })
   if (keyName) {
     return result[keyName];
   }
   return result;
-}
+};
 
 module.exports.default = module.exports = getParams;
