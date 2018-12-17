@@ -1,4 +1,4 @@
-# sp-fe-func
+# sp-func
 
 Common Functions for Url, Validate, Ajax etc
 
@@ -9,15 +9,15 @@ Common Functions for Url, Validate, Ajax etc
 ### NPM
 
 ``` node
-npm install --save sp-fe-func
-// or yarn add sp-fe-func
+npm install --save sp-func
+// or yarn add sp-func
 ```
 
 ### CDN
 
 ```html
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="https://unpkg.com/sp-fe-func/index.min.js"></script>
+<script src="https://unpkg.com/sp-func/index.min.js"></script>
 <script>
   __FUNC.serviceAPI(options = {
     url: '/',
@@ -37,7 +37,7 @@ npm install --save sp-fe-func
 
 ```js
  //__FUNC: {serviceAPI, Validate, Url, Validate}
-const __FUNC = require('sp-fe-func')
+const __FUNC = require('sp-func')
 ```
 
 ### API Request
