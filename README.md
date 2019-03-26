@@ -188,6 +188,7 @@ Chinese PhoneNumber Validate (length = 11)
 ```js
   __FUNC.Form.getData('age')
   //=> 18
+```
 
 - **`Form.setData (name, value)`**
   - `name`: `String`
