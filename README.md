@@ -182,6 +182,22 @@ Chinese PhoneNumber Validate (length = 11)
   //=> localStorage.age = 19
 ```
 
+- **`Form.getData (name)`**
+  - `name`: `String`
+
+```js
+  __FUNC.Form.getData('age')
+  //=> 18
+
+- **`Form.setData (name, value)`**
+  - `name`: `String`
+  - `value`: `String`
+
+```js
+  __FUNC.Form.setData('age', 21)
+  __FUNC.Form.getData('age')
+  //=> 21
+
 ## License
 
 MIT
